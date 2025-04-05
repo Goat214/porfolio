@@ -1,0 +1,142 @@
+/* noto-serif-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/noto-serif-v28-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* noto-serif-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/noto-serif-v28-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* noto-serif-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/noto-serif-v28-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Noto Serif", serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.portfolio {
+}
+.portfolio__container {
+}
+.container {
+}
+.portfolio__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.portfolio__item {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+}
+.portfolio__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio__content__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.portfolio__counter {
+  font-size: 25px;
+  opacity: 50%;
+}
+.portfolio__title {
+  font-size: 25px;
+}
+.portfolio__links {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.portfolio__link {
+  font-size: 18px;
+}
+.fa-brands {
+}
+.fa-github {
+}
+.fa-solid {
+}
+.fa-link {
+}
+
+.header__title {
+  font-size: 80px;
+}
+.header__description {
+}
+
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
