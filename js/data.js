@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Parfium",
+    github: "https://github.com/Goat214/parfum",
+    vercel: "https://parfum-ruby.vercel.app/",
+  },
+  {
     title: "Ansor Med",
     github: "https://github.com/Goat214/Ansor-Med",
     vercel: "https://ansor-med-indol.vercel.app/",
