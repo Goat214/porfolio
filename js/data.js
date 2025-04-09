@@ -1,5 +1,10 @@
 export default [
   {
+    title: "MyTeam",
+    github: "https://github.com/Goat214/MyTeam---copy",
+    vercel: "https://my-team-copy-eta.vercel.app/",
+  },
+  {
     title: "Parfium",
     github: "https://github.com/Goat214/parfum",
     vercel: "https://parfum-ruby.vercel.app/",
