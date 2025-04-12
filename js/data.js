@@ -1,6 +1,11 @@
 export default [
   {
     title: "MyTeam",
+    github: "https://github.com/Goat214/Single-Page",
+    vercel: "https://single-page-tau-opal.vercel.app/",
+  },
+  {
+    title: "MyTeam",
     github: "https://github.com/Goat214/MyTeam---copy",
     vercel: "https://my-team-copy-eta.vercel.app/",
   },
