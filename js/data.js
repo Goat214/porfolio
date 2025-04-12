@@ -1,6 +1,6 @@
 export default [
   {
-    title: "MyTeam",
+    title: "Single Page",
     github: "https://github.com/Goat214/Single-Page",
     vercel: "https://single-page-tau-opal.vercel.app/",
   },
