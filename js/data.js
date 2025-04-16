@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Book club",
+    github: "https://github.com/Goat214/book-club",
+    vercel: "https://book-club-lime.vercel.app/",
+  },
+  {
     title: "Single Page",
     github: "https://github.com/Goat214/Single-Page",
     vercel: "https://single-page-tau-opal.vercel.app/",
