@@ -1,5 +1,15 @@
 export default [
   {
+    title: "Tech book",
+    github: "https://github.com/Goat214/tech_book",
+    vercel: "https://tech-book-sepia.vercel.app/",
+  },
+  {
+    title: "business grow",
+    github: "https://github.com/Goat214/card__responsiv",
+    vercel: "https://card-responsiv.vercel.app/",
+  },
+  {
     title: "Book club",
     github: "https://github.com/Goat214/book-club",
     vercel: "https://book-club-lime.vercel.app/",
