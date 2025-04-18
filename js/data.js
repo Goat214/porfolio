@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Namanganliklar",
+    github: "https://github.com/Goat214/Imtihon-Namanganliklar",
+    vercel: "https://imtihon-namanganliklar.vercel.app/",
+  },
+  {
     title: "Tech book",
     github: "https://github.com/Goat214/tech_book",
     vercel: "https://tech-book-sepia.vercel.app/",
