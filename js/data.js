@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Finsweet",
+    github: "https://github.com/Goat214/Finsweet",
+    vercel: "https://finsweet-gilt.vercel.app/",
+  },
+  {
     title: "Namanganliklar",
     github: "https://github.com/Goat214/Imtihon-Namanganliklar",
     vercel: "https://imtihon-namanganliklar.vercel.app/",
