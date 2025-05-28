@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Music Player",
+    github: "https://github.com/Goat214/Music-player",
+    vercel: "https://music-player-three-kappa.vercel.app/",
+  },
+  {
     title: "Finsweet",
     github: "https://github.com/Goat214/Finsweet",
     vercel: "https://finsweet-gilt.vercel.app/",
