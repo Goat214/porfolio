@@ -1,5 +1,15 @@
 export default [
   {
+    title: "New MusicPlayer",
+    github: "https://github.com/Goat214/new-music-player",
+    vercel: "https://new-music-player-omega.vercel.app/",
+  },
+  {
+    title: "Video Player",
+    github: "https://github.com/Goat214/Video-player",
+    vercel: "https://video-player-nine-pi.vercel.app/",
+  },
+  {
     title: "Music Player",
     github: "https://github.com/Goat214/Music-player",
     vercel: "https://music-player-three-kappa.vercel.app/",
