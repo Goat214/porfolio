@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Nike ",
+    github: "https://github.com/Goat214/5.8-dras_vazifa",
+    vercel: "https://5-8-dras-vazifa.vercel.app/",
+  },
+  {
     title: "New MusicPlayer",
     github: "https://github.com/Goat214/new-music-player",
     vercel: "https://new-music-player-omega.vercel.app/",
