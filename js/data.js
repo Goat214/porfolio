@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Uzum  v.2",
+    github: "https://github.com/Goat214/uzum_v.2",
+    vercel: "https://uzum-v-2.vercel.app/",
+  },
+  {
     title: "uzum Market",
     github: "https://github.com/Goat214/uzum",
     vercel: "https://uzum-nu.vercel.app/",
