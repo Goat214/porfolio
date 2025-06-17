@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Dessert",
+    github: "https://github.com/Goat214/Dessert",
+    vercel: "https://dessert-one.vercel.app/",
+  },
+  {
     title: "Uzum  v.3",
     github: "https://github.com/Goat214/5.12",
     vercel: "https://5-12-plum.vercel.app/",
