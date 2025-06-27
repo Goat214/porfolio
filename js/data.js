@@ -2,7 +2,7 @@ export default [
   {
     title: "InfoBook",
     github: "https://github.com/Goat214/4dars_vazifa",
-    vercel: "https://vercel.com/goat214s-projects/4dars-vazifa",
+    vercel: "https://4dars-vazifa-bay.vercel.app/",
   },
   {
     title: "rendom user",
