@@ -1,5 +1,10 @@
 export default [
   {
+    title: "MIxedStore",
+    github: "https://github.com/Goat214/mixedStore",
+    vercel: "https://mixed-store-u6oe.vercel.app/",
+  },
+  {
     title: "InfoBook",
     github: "https://github.com/Goat214/4dars_vazifa",
     vercel: "https://4dars-vazifa-bay.vercel.app/",
