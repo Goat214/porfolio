@@ -1,6 +1,6 @@
 export default [
   {
-    title: "MIxedStore",
+    title: "MixedStore",
     github: "https://github.com/Goat214/mixedStore",
     vercel: "https://mixed-store-u6oe.vercel.app/",
   },
