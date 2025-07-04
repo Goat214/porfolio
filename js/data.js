@@ -1,5 +1,10 @@
 export default [
   {
+    title: "UzumStore",
+    github: "https://github.com/Goat214/UzumStore",
+    vercel: "https://uzum-store.vercel.app/",
+  },
+  {
     title: "MixedStore",
     github: "https://github.com/Goat214/mixedStore",
     vercel: "https://mixed-store-u6oe.vercel.app/",
