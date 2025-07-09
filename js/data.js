@@ -1,5 +1,10 @@
 export default [
   {
+    title: "ContextStore",
+    github: "https://github.com/Goat214/contexStore",
+    vercel: "https://contex-store.vercel.app/",
+  },
+  {
     title: "UzumStore",
     github: "https://github.com/Goat214/UzumStore",
     vercel: "https://uzum-store.vercel.app/",
