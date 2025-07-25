@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Random Images v.2",
+    github: "https://github.com/Goat214/7.4vazifa.2",
+    vercel: "https://7-4vazifa-2.vercel.app/login",
+  },
+  {
     title: "Random Images",
     github: "https://github.com/Goat214/random_img",
     vercel: "https://random-img-delta.vercel.app/",
