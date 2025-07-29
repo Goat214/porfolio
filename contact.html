@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,105 +16,105 @@
       body {
         background: linear-gradient(to bottom right, #0a192f, #112240);
         color: #fff;
-        font-size: 1rem;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        overflow-x: hidden;
       }
 
       header {
         text-align: center;
-        margin: 3rem 0;
+        padding: 3rem 1rem 1rem;
+        background-color: #0a192f;
       }
 
       header h1 {
         font-size: 3rem;
-        font-weight: bold;
         color: #64ffda;
         margin-bottom: 1rem;
-        letter-spacing: 2px;
-        text-transform: uppercase;
       }
 
       header p {
-        font-size: 1.2rem;
         color: #ccd6f6;
+        font-size: 1.2rem;
+        max-width: 600px;
+        margin: 0 auto;
       }
 
       .container {
         width: 100%;
         max-width: 900px;
+        margin: auto;
         padding: 2rem;
-        margin: 0 auto;
       }
 
       .contact-form {
-        background: rgba(255, 255, 255, 0.1);
-        padding: 3rem;
-        border-radius: 10px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        margin-bottom: 3rem;
-        animation: fadeInUp 1s ease-in-out;
-        width: 100%;
+        background: rgba(255, 255, 255, 0.07);
+        padding: 2.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        animation: fadeInUp 0.8s ease;
+        backdrop-filter: blur(10px);
       }
 
       .contact-form h2 {
-        font-size: 2rem;
-        color: #64ffda;
         text-align: center;
-        margin-bottom: 1rem;
+        color: #64ffda;
+        margin-bottom: 2rem;
+        font-size: 2rem;
       }
 
-      .contact-form label {
+      label {
         display: block;
-        font-size: 1.1rem;
-        color: #ccd6f6;
         margin-bottom: 0.5rem;
+        color: #ccd6f6;
       }
 
-      .contact-form input,
-      .contact-form textarea {
+      input,
+      textarea {
         width: 100%;
         padding: 1rem;
-        margin-bottom: 1.5rem;
-        border-radius: 8px;
-        border: 1px solid #64ffda;
+        border: none;
+        border-radius: 0.5rem;
         background: rgba(255, 255, 255, 0.2);
         color: #fff;
-        font-size: 1.1rem;
-        transition: 0.3s;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+        transition: background 0.3s;
       }
 
-      .contact-form input:focus,
-      .contact-form textarea:focus {
-        border: 1px solid #ff9f00;
+      input:focus,
+      textarea:focus {
         outline: none;
         background: rgba(255, 255, 255, 0.3);
+        border: 1px solid #64ffda;
       }
 
-      .contact-form button {
-        padding: 1rem 3rem;
+      button {
+        width: 100%;
+        padding: 1rem;
         background: #64ffda;
         color: #0a192f;
-        font-size: 1.2rem;
         border: none;
-        border-radius: 8px;
+        border-radius: 0.5rem;
+        font-size: 1.1rem;
         cursor: pointer;
-        transition: 0.3s;
-        width: 100%;
+        transition: all 0.3s ease;
       }
 
-      .contact-form button:hover {
+      button:hover {
         background: #ff9f00;
-        transform: scale(1.05);
+        transform: translateY(-2px);
       }
 
       .social-links {
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
+      }
+
+      .social-links p {
+        font-size: 1rem;
+        color: #ccd6f6;
+        margin-bottom: 1rem;
       }
 
       .social-links a {
@@ -122,22 +122,21 @@
         margin: 0 1rem;
         color: #64ffda;
         font-size: 2rem;
-        text-decoration: none;
-        transition: 0.3s;
+        transition: transform 0.3s, color 0.3s;
       }
 
       .social-links a:hover {
         color: #ff9f00;
-        transform: scale(1.1);
+        transform: scale(1.15);
       }
 
       footer {
-        text-align: center;
         margin-top: auto;
-        padding: 1rem;
-        background: #0a192f;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        background-color: #0a192f;
         color: #ccd6f6;
-        width: 100%;
+        font-size: 0.9rem;
       }
 
       @keyframes fadeInUp {
@@ -151,13 +150,9 @@
         }
       }
 
-      @media (max-width: 768px) {
-        .contact-form {
-          padding: 2rem;
-        }
-
+      @media (max-width: 600px) {
         header h1 {
-          font-size: 2.5rem;
+          font-size: 2.2rem;
         }
 
         header p {
@@ -165,16 +160,7 @@
         }
 
         .contact-form h2 {
-          font-size: 1.8rem;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-          font-size: 1rem;
-        }
-
-        .contact-form button {
-          font-size: 1rem;
+          font-size: 1.6rem;
         }
 
         .social-links a {
@@ -185,10 +171,8 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <h1>Abdulatif Kimsanaliev</h1>
-        <p>Men bilan bog‘lanish uchun quyidagi formani to‘ldiring yoki ijtimoiy tarmoqlarim orqali aloqaga chiqing.</p>
-      </div>
+      <h1>Abdulatif Kimsanaliev</h1>
+      <p>Men bilan bog‘lanish uchun quyidagi formani to‘ldiring yoki ijtimoiy tarmoqlarim orqali aloqaga chiqing.</p>
     </header>
 
     <main class="container">
@@ -209,12 +193,11 @@
       </section>
 
       <section class="social-links">
-        <p><strong>Agar tezda bog‘lanmoqchi bo‘lsangiz, quyidagi usullardan foydalaning:</strong></p>
-        <a href="mailto:abdulatif@outlook.com" target="_blank"><i class="fab fa-microsoft"></i> </a>
-        <a href="mailto:goat52811@gmail.com" target="_blank"><i class="fas fa-envelope"></i> </a>
-        <a href="tel:+996777772999" target="_blank"><i class="fas fa-phone-alt"></i></a>
-        <a href="https://t.me/Abdulatif_8" target="_blank"><i class="fab fa-telegram"></i></a>
-       
+        <p><strong>Yoki tezda quyidagi usullar orqali bog‘laning:</strong></p>
+        <a href="mailto:abdulatif@outlook.com" title="Outlook" target="_blank"><i class="fab fa-microsoft"></i></a>
+        <a href="mailto:goat52811@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope"></i></a>
+        <a href="tel:+996777772999" title="Telefon"><i class="fas fa-phone-alt"></i></a>
+        <a href="https://t.me/Abdulatif_8" title="Telegram" target="_blank"><i class="fab fa-telegram"></i></a>
       </section>
     </main>
 

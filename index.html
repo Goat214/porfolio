@@ -10,23 +10,32 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       rel="stylesheet"
     />
-    <style></style>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
   </head>
   <body>
     <header>
       <div class="container">
         <h1 class="header__title">Abdulatif Kimsanaliev</h1>
-        <div class="header__nav">
-          <p class="header__description">
-            Frontend Dasturchi | Portfolio va Loyihalar
-          </p>
-        </div>
+        <h3 class="header__title1">
+          <span id="typed_2"></span>
+        </h3>
+        <script>
+          const typed_2 = new Typed("#typed_2", {
+            strings: [ "Frontend Dasturchi", "React Developer"],
+            typeSpeed: 50,
+            backSpeed: 30,
+            loop: true
+          });
+        </script>
+              
       </div>
     </header>
 
     <main class="container">
       <section class="about">
         <h2>Men haqimda</h2>
+        
         <p>
           Men Frontend sohasida o‘z ustida ishlayotgan yosh dasturchiman. Bu
           portfolio orqali men o‘rganayotgan va bajargan loyihalarimni taqdim
@@ -83,7 +92,7 @@
           <nav class="header__nav">
             <ul>
               <li>
-                <a class="contact__link" href="./cotact.html"
+                <a class="contact__link" href="./contact.html"
                   >Bilan bog'lanish</a
                 >
               </li>

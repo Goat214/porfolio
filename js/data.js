@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Signup-Login v.2",
+    github: "https://github.com/Goat214/7.6vazifa",
+    vercel: "https://7-6vazifa.vercel.app/",
+  },
+  {
     title: "Signup-Login",
     github: "https://github.com/Goat214/Signup-Login",
     vercel: "https://signup-login-psi.vercel.app/",

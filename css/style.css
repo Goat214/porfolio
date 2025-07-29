@@ -243,3 +243,32 @@ footer {
  padding-bottom: 60px;
   font-size: 0.9rem;
 }
+
+.social-links a {
+  position: relative;
+}
+.social-links a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: #64ffda;
+  transition: width 0.3s;
+}
+.social-links a:hover::after {
+  width: 100%;
+}
+
+.portfolio__item {
+  transition: all 0.4s ease;
+}
+.portfolio__item:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1);
+}
+.contact-form button:hover {
+  transform: scale(1.05);
+  background-color: #ff9f00;
+}
