@@ -1,8 +1,8 @@
 export default [
   {
-    title: "Dessert v.2",
+    title: "Dessert  v.2",
     github: "https://github.com/Goat214/8.1dars_vazifa",
-    vercel: "https://https://8-1dars-vazifa.vercel.app/",
+    vercel: "https://8-1dars-vazifa.vercel.app/",
   },
   {
     title: "Signup-Login",
