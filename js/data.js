@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Dessert  (end)",
+    github: "https://github.com/Goat214/8.3dars_vazifa",
+    vercel: "https://8-3dars-vazifa.vercel.app/",
+  },
+  {
     title: "Dessert  v.2",
     github: "https://github.com/Goat214/8.1dars_vazifa",
     vercel: "https://8-1dars-vazifa.vercel.app/",
