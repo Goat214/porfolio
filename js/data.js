@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Todo List",
+    github: "https://github.com/Goat214/todo",
+    vercel: "https://todo-alpha-ashy.vercel.app/",
+  },
+  {
     title: "Dessert  (end)",
     github: "https://github.com/Goat214/8.3dars_vazifa",
     vercel: "https://8-3dars-vazifa.vercel.app/",
