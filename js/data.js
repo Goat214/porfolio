@@ -2,7 +2,7 @@ export default [
   {
     title: "GitHUb Users",
     github: "https://github.com/Goat214/8.5-dars",
-    vercel: "https://github.com/Goat214/8.5-dars",
+    vercel: "https://8-5-dars-eight.vercel.app/",
   },
   {
     title: "Todo List",
