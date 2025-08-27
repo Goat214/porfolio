@@ -1,5 +1,10 @@
 export default [
   {
+    title: "GitHUb Users",
+    github: "https://github.com/Goat214/8.5-dars",
+    vercel: "https://github.com/Goat214/8.5-dars",
+  },
+  {
     title: "Todo List",
     github: "https://github.com/Goat214/todo",
     vercel: "https://todo-alpha-ashy.vercel.app/",
