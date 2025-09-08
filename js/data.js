@@ -1,5 +1,10 @@
 export default [
   {
+    title: "Healthy-reciept",
+    github: "https://github.com/Goat214/9.2dars",
+    vercel: "https://9-2dars.vercel.app",
+  },
+  {
     title: "GitHUb Users",
     github: "https://github.com/Goat214/8.5-dars",
     vercel: "https://8-5-dars-eight.vercel.app/",
