@@ -1,0 +1,191 @@
+/* 1. Reset va Asosiy sozlamalar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    /* Footer pastda turishi uchun asosiy qism */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* 2. Asosiy Section */
+  .contact-section {
+    /* flex: 1; - bu barcha bo'sh joyni egallaydi va footerni pastga itaradi */
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center; /* Kontentni vertikal markazlash (ixtiyoriy) */
+    padding: 50px 0;
+  }
+  
+  /* 3. Container */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  /* 4. Chap tomon (Matnlar) */
+  .contact-left {
+    flex: 1 1 45%;
+    min-width: 300px;
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    font-weight: 700;
+  }
+  
+  .contact-text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  /* 5. Aloqa ma'lumotlari */
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .info-item {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .info-item i {
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+  .info-item:hover {
+    color: #007bff;
+    transform: translateX(5px);
+  }
+  
+  /* 6. O'ng tomon (Forma) */
+  .contact-right {
+    flex: 1 1 45%;
+    min-width: 300px;
+  }
+  
+  .contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background: #fdfdfd;
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+  }
+  
+  .contact-form button {
+    padding: 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .contact-form button:hover {
+    background: #0056b3;
+  }
+  
+  .contact-form button:active {
+    transform: scale(0.98);
+  }
+  
+  /* 7. Footer */
+  .footer {
+    flex-shrink: 0; /* Footer qisqarib ketmasligi uchun */
+    text-align: center;
+    padding: 25px 0;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  /* 8. Responsivlik (Mobil qurilmalar uchun) */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      margin: 20px auto;
+    }
+    
+    .contact-title {
+      font-size: 2rem;
+    }
+    
+    .contact-left, .contact-right {
+      flex: 1 1 100%;
+    }
+  }
+  .home-btn {
+    position: fixed;      /* doim joyida turadi */
+    top: 20px;            /* yuqoridan masofa */
+    right: 20px;          /* o‘ngdan masofa */
+    padding: 10px 20px;   /* tugma ichidagi bo‘shliq */
+    background-color: #007BFF; /* yashil rang (xohlovcha o‘zgartiring) */
+    color: #fff;          /* matn rangi */
+    border-radius: 5px;   /* burchaklarni yumaloq qiladi */
+    text-decoration: none; /* chiziq yo‘q */
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+    z-index: 1000;        /* boshqa elementlar ustida turishi uchun */
+  }
+  
+  .home-btn:hover {
+    background-color: #0056b3; /* hover effekti */
+  }
+  

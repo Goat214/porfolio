@@ -3,210 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Men bilan bog‘lanish</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      }
-
-      body {
-        background: linear-gradient(to bottom right, #0a192f, #112240);
-        color: #fff;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-      }
-
-      header {
-        text-align: center;
-        padding: 3rem 1rem 1rem;
-        background-color: #0a192f;
-      }
-
-      header h1 {
-        font-size: 3rem;
-        color: #64ffda;
-        margin-bottom: 1rem;
-      }
-
-      header p {
-        color: #ccd6f6;
-        font-size: 1.2rem;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-
-      .container {
-        width: 100%;
-        max-width: 900px;
-        margin: auto;
-        padding: 2rem;
-      }
-
-      .contact-form {
-        background: rgba(255, 255, 255, 0.07);
-        padding: 2.5rem;
-        border-radius: 1rem;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-        animation: fadeInUp 0.8s ease;
-        backdrop-filter: blur(10px);
-      }
-
-      .contact-form h2 {
-        text-align: center;
-        color: #64ffda;
-        margin-bottom: 2rem;
-        font-size: 2rem;
-      }
-
-      label {
-        display: block;
-        margin-bottom: 0.5rem;
-        color: #ccd6f6;
-      }
-
-      input,
-      textarea {
-        width: 100%;
-        padding: 1rem;
-        border: none;
-        border-radius: 0.5rem;
-        background: rgba(255, 255, 255, 0.2);
-        color: #fff;
-        font-size: 1rem;
-        margin-bottom: 1.5rem;
-        transition: background 0.3s;
-      }
-
-      input:focus,
-      textarea:focus {
-        outline: none;
-        background: rgba(255, 255, 255, 0.3);
-        border: 1px solid #64ffda;
-      }
-
-      button {
-        width: 100%;
-        padding: 1rem;
-        background: #64ffda;
-        color: #0a192f;
-        border: none;
-        border-radius: 0.5rem;
-        font-size: 1.1rem;
-        cursor: pointer;
-        transition: all 0.3s ease;
-      }
-
-      button:hover {
-        background: #ff9f00;
-        transform: translateY(-2px);
-      }
-
-      .social-links {
-        text-align: center;
-        margin-top: 2.5rem;
-      }
-
-      .social-links p {
-        font-size: 1rem;
-        color: #ccd6f6;
-        margin-bottom: 1rem;
-      }
-
-      .social-links a {
-        display: inline-block;
-        margin: 0 1rem;
-        color: #64ffda;
-        font-size: 2rem;
-        transition: transform 0.3s, color 0.3s;
-      }
-
-      .social-links a:hover {
-        color: #ff9f00;
-        transform: scale(1.15);
-      }
-
-      footer {
-        margin-top: auto;
-        text-align: center;
-        padding: 1.5rem 1rem;
-        background-color: #0a192f;
-        color: #ccd6f6;
-        font-size: 0.9rem;
-      }
-
-      @keyframes fadeInUp {
-        0% {
-          opacity: 0;
-          transform: translateY(50px);
-        }
-        100% {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-
-      @media (max-width: 600px) {
-        header h1 {
-          font-size: 2.2rem;
-        }
-
-        header p {
-          font-size: 1rem;
-        }
-
-        .contact-form h2 {
-          font-size: 1.6rem;
-        }
-
-        .social-links a {
-          font-size: 1.5rem;
-        }
-      }
-    </style>
+    <title>Contact | Abdulatif</title>
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <h1>Abdulatif Kimsanaliev</h1>
-      <p>Men bilan bog‘lanish uchun quyidagi formani to‘ldiring yoki ijtimoiy tarmoqlarim orqali aloqaga chiqing.</p>
-    </header>
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-left">
+          <a href="./index.html" class="home-btn">Home Page</a>
 
-    <main class="container">
-      <section class="contact-form">
-        <h2>Kontakt Formasi</h2>
-        <form action="mailto:abdulatif@example.com" method="post" enctype="text/plain">
-          <label for="name">Ismingiz</label>
-          <input type="text" id="name" name="name" required />
+          <h1 class="contact-title">Let’s work together</h1>
+          <p class="contact-text">
+            Agar loyiha, ish taklifi yoki shunchaki savolingiz bo‘lsa — yozing.
+            Men imkon qadar tez javob beraman.
+          </p>
 
-          <label for="email">Email manzilingiz</label>
-          <input type="email" id="email" name="email" required />
+          <div class="contact-info">
+            <a href="mailto:goat52811@gmail.com" class="info-item">
+              <i class="fas fa-envelope"></i>
+              goat52811@gmail.com
+            </a>
+            <a href="tel:+996777772999" class="info-item">
+              <i class="fas fa-phone"></i>
+              +996 777 772 999
+            </a>
+            <a
+              href="https://t.me/Abdulatif_8"
+              target="_blank"
+              class="info-item"
+            >
+              <i class="fab fa-telegram"></i>
+              Telegram
+            </a>
+          </div>
+        </div>
 
-          <label for="message">Xabar</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="contact-right">
+          <form id="contact-form" class="contact-form">
+            <input
+              type="text"
+              name="user_name"
+              placeholder="Ismingiz"
+              required
+            />
+            <input
+              type="email"
+              name="user_email"
+              placeholder="Email"
+              required
+            />
+            <textarea name="message" placeholder="Xabar" required></textarea>
+            <button type="submit">Yuborish</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-          <button type="submit">Xabar yuborish</button>
-        </form>
-      </section>
-
-      <section class="social-links">
-        <p><strong>Yoki tezda quyidagi usullar orqali bog‘laning:</strong></p>
-        <a href="mailto:abdulatif@outlook.com" title="Outlook" target="_blank"><i class="fab fa-microsoft"></i></a>
-        <a href="mailto:goat52811@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope"></i></a>
-        <a href="tel:+996777772999" title="Telefon"><i class="fas fa-phone-alt"></i></a>
-        <a href="https://t.me/Abdulatif_8" title="Telegram" target="_blank"><i class="fab fa-telegram"></i></a>
-      </section>
-    </main>
-
-    <footer>
-      <p>Abdulatif Kimsanaliev &copy; <span id="time"></span></p>
+    <footer class="footer">
+      © <span id="year"></span> Abdulatif Kimsanaliev
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script>
-      document.getElementById("time").textContent = new Date().getFullYear();
+      (function () {
+        emailjs.init("6W1wkGjjpaPkbes-h");
+      })();
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+          emailjs
+            .sendForm("service_ihhszxr", "template_i0hxgl3", this)
+            .then(() => alert("Xabar yuborildi ✅"))
+            .catch(() => alert("Xatolik ❌"));
+        });
+
+      document.getElementById("year").textContent = new Date().getFullYear();
     </script>
   </body>
 </html>

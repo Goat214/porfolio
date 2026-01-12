@@ -242,6 +242,9 @@ footer {
   color: #ccc;
  padding-bottom: 60px;
   font-size: 0.9rem;
+  p{
+    margin-top: 20px;
+  }
 }
 
 .social-links a {
@@ -271,4 +274,22 @@ footer {
 .contact-form button:hover {
   transform: scale(1.05);
   background-color: #ff9f00;
+}
+.contact-btn {
+  position: fixed;      /* sahifa scroll qilinsa ham joyida turadi */
+  top: 20px;            /* yuqoridan masofa */
+  right: 20px;          /* o‘ngdan masofa */
+  padding: 10px 20px;   /* tugma ichidagi bo‘shliq */
+  background-color: #007BFF; /* tugma rangi (xohlovcha o‘zgartirishingiz mumkin) */
+  color: #fff;          /* matn rangi */
+  border-radius: 5px;   /* tugma burchaklari yumaloq */
+  text-decoration: none; /* chiziqni olib tashlash */
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s;
+  z-index: 1000;        /* boshqa elementlar ustida turishi uchun */
+}
+
+.contact-btn:hover {
+  background-color: #0056b3; /* hover effekti */
 }
